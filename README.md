@@ -20,10 +20,10 @@ run this instruction inside your workspace:
 
 ` rosdep install --from-paths src --ignore-src -r -y `
 For Ros Noetic:
-`sudo apt-get install ros-noetic-moveit
- sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
- sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
- sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
+`sudo apt-get install ros-noetic-moveit `
+` sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui `
+ ` sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher `
+ ` sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control `
 # Robot Arm
 The robot arm has 5 joints, 4 joints to connect the arm links where the last joint for the gripper.
 ## Circuit diagram
