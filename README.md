@@ -31,4 +31,15 @@ The robot arm has 5 joints, 4 joints to connect the arm links where the last joi
 ## Circuit diagram
 
 
+## Robot initial positions
+
+## Usage
+` source ~/.bashrc `
+at the end of the (bashrc) file add the follwing line
+`(source /home/asma/catkin_ws/devel/setup.bash)`
+then 
+ctrl + o
+` roslaunch robot_arm_pkg check_motors.launch `
+
+
 
