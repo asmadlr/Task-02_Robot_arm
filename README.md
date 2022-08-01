@@ -30,8 +30,13 @@ For Ros Noetic:
 The robot arm has 5 joints, 4 joints to connect the arm links where the last joint for the gripper.
 ## Circuit diagram
 
+![circuit](https://user-images.githubusercontent.com/108361853/182257065-c1c1ac00-a6a0-4df5-bcc7-05fa570f14e5.png)
+
 
 ## Robot initial positions
+
+![positions](https://user-images.githubusercontent.com/108361853/182257094-8e09ce65-20a4-41e0-a993-7c15c4204121.png)
+
 
 ## Usage
 ` source ~/.bashrc `
@@ -40,5 +45,7 @@ at the end of the (bashrc) file add the follwing line
 then 
 ctrl + o
 ` roslaunch robot_arm_pkg check_motors.launch `
+
+![‏‏لقطة الشاشة (37)](https://user-images.githubusercontent.com/108361853/182257150-06d0a54a-0d4c-4d82-890b-4a4d8b96913b.png)
 
 
